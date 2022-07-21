@@ -1,3 +1,38 @@
-h1 {
-    color: aqua;
+/* Style background banner */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.background {
+    display: flex;
+    color: white;
+    width: 1321px;
+    height: 646px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.banner-text {
+    font-size: larger;
+
+}
+
+.header-text {
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.banner-img img {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
 }
